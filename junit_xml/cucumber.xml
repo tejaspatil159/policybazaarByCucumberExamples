@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="35.357796">
+<testcase classname="Test renew your policy section in policybazzar site" name="Verify motor renewal fuctionality working properly or not 2" time="20.265017">
+<system-out><![CDATA[Given that user already on policybazaar home site...........................passed
+When mouse on renew your policy section.....................................passed
+And click on motor renewal section..........................................passed
+Then click on proceed without car number....................................passed
+When select CityRto "MH04-THANE(Maharashtra)"...............................passed
+Then select CarModel"HYUNDAI - i 20" and "172"..............................passed
+Then select CarFuelType"Petrol".............................................passed
+Then select Varient"1.2 ASTA (O) WITH SUNROOF (1197 cc)" and "3"............passed
+Then select RegistrationYear"2021"..........................................passed
+Then enter "Tejas Patil" and "t@gmail.com" and "7485964565" and click on viewPrices.passed
+]]></system-out>
+</testcase>
+<testcase classname="Test renew your policy section in policybazzar site" name="Verify motor renewal fuctionality working properly or not 4" time="15.092779">
+<system-out><![CDATA[Given that user already on policybazaar home site...........................passed
+When mouse on renew your policy section.....................................passed
+And click on motor renewal section..........................................passed
+Then click on proceed without car number....................................passed
+When select CityRto "DL13-EAST DELHI(Delhi)"................................passed
+Then select CarModel"TATA - Harrier" and "441"..............................passed
+Then select CarFuelType"Diesel".............................................passed
+Then select Varient"Kaziranga XZA Plus (1956 cc)" and "0"...................passed
+Then select RegistrationYear"2021"..........................................passed
+Then enter "Rutik Patil" and "r@gmail.com" and "8525654595" and click on viewPrices.passed
+]]></system-out>
+</testcase>
+</testsuite>
